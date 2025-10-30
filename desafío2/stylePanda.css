@@ -1,0 +1,178 @@
+body{
+    background-color: #FDDAB2;
+    background-image: url(https://i.pinimg.com/736x/d5/05/44/d5054406e58b5e1f0035cb31640eb7bc.jpg);
+}
+
+h1{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 12px;
+}
+
+p{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc9aa;
+    margin: -8px;
+    margin-bottom: 0px;
+}
+
+#Slogan{
+    margin-top: -10px;
+    margin-left: 8px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+nav{
+    margin: -8px;
+    padding-left: 8px;
+    display: flex;
+    background-color: #ffc9aa;
+    border-width: 1px;
+    border-style: solid;
+
+p{
+    margin: 2px 5px 2px 5px;
+}
+
+    a:hover{
+        font-size: 30px;
+    }
+
+}
+
+.Cuerpo{
+    display: flex;
+}
+
+.IntroducciónPandasRojos{
+    display: flex;
+
+    #IntroPandasRojos{
+        margin: 15px;
+        text-align: justify;
+    }
+
+}
+
+aside{
+    width: 30%;
+    height: auto;
+    background-color: #fcebd9;
+    padding: 8px;
+        border-radius: 3px;
+        border-width: 1px;
+        border-style: solid;
+    margin: 8px;
+    margin-right: 5px;
+}
+
+.AliHabi{
+    display: flex;
+    text-align: justify;
+
+    section{
+        margin: 8px;
+    }
+}
+
+.Video{
+    text-align: center;
+}
+
+#Gotas{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.CaracterísticasFísicas{
+    display: flex;
+    flex-wrap: wrap;
+
+    div{
+        margin: 8px;
+        width: 31.5%;
+    }
+
+    h2{
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 5px;
+    }
+
+    p{
+        margin: 8px;
+    }
+}
+
+#Comportamiento{
+    margin: 16px;
+}
+
+#Amenazas{
+    display: flex;
+
+    p{
+        margin: 8px;
+    }
+
+    #LinkAmenazas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #VermásAmenazas{
+        text-decoration: none;
+        border-width: 2px;
+        border-style: dashed;
+        padding: 8px;
+        border-radius: 8px;
+        background-color: #FDDAB2;
+    }
+
+}
+
+article{
+    margin: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    background-image: url(https://i.pinimg.com/1200x/a8/9c/a1/a89ca16220f9f9de8d57f94aa43eff8a.jpg);
+    width: 30%;
+
+    h3{
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 5px;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFA069;
+    margin: -8px;
+    border-width: 1px;
+    border-style: solid;
+}
